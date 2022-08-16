@@ -2,11 +2,13 @@ Guestbook
 
 Installation
 
--   run git pull origin main in your localhost
+-   run git clone git@github.com:johndug/guestbook.git
+-	run composer update
+- 	configure the .env file database connection and the database is labelled guestbook
+-	run php artisan key:generate
 -   in your mysql create a database called guestbook
--   open a git bash terminal your guestbook directory
 -   run php artisan migrate and php artisan db:seed
--   your can run php artisam serve to launch the site on your localhost
+-   your can run php artisan serve to launch the site on your localhost
 
 The default admin details are as follows:
 email: admin@webmail.com
